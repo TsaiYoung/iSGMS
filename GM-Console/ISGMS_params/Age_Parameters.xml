@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Age_Parameters>
+	<Start_Age>10</Start_Age>
+	<End_Age>25</End_Age>
+	<Interval_Age>5</Interval_Age>
+</Age_Parameters>

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Management_Parameters>
+	<Management1>
+		<Cutting_Age>13</Cutting_Age>
+		<Cutting_Type>0</Cutting_Type>
+		<Intensity>0.15</Intensity>
+		<Cutting_Weights>
+			<Weight1>0.7</Weight1>
+			<Weight2>0.7</Weight2>
+			<Weight3>0.3</Weight3>
+			<Weight4>0.3</Weight4>
+			<Weight5>0.3</Weight5>
+			<Weight6>0.3</Weight6>
+			<Weight7>0</Weight7>
+		</Cutting_Weights>
+	</Management1>
+	<Management2>
+		<Cutting_Age>16</Cutting_Age>
+		<Cutting_Type>2</Cutting_Type>
+		<Intensity>0.10</Intensity>
+		<Cutting_Weights>
+			<Weight1>0.7</Weight1>
+			<Weight2>0.7</Weight2>
+			<Weight3>0.3</Weight3>
+			<Weight4>0.3</Weight4>
+			<Weight5>0.3</Weight5>
+			<Weight6>0.3</Weight6>
+			<Weight7>0</Weight7>
+		</Cutting_Weights>
+	</Management2>
+</Management_Parameters>

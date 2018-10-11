@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Model_Other_Parameters>
+	<Canopy_Density></Canopy_Density>
+	<Site_Index>14</Site_Index>
+	<Standard_Mean_Diameter>10</Standard_Mean_Diameter>
+	<Threshold>0.2</Threshold>
+	<Min_Temperature></Min_Temperature>
+	<Mean_Precipitation></Mean_Precipitation>
+	<MT></MT>
+	<VT></VT>
+	<TS></TS>
+</Model_Other_Parameters>

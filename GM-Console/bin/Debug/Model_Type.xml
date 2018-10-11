@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Model_Type>
+	<DBH_model>15</DBH_model>
+	<Height_model>5</Height_model>
+	<CW_model>24</CW_model>
+	<UBH_model>7</UBH_model>
+	<Biomass_model>0</Biomass_model>
+	<Mortality_model>0</Mortality_model>
+</Model_Type>

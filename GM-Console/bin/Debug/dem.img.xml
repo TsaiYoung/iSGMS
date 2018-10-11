@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata xml:lang="zh"><Esri><CreaDate>20180523</CreaDate><CreaTime>15083000</CreaTime><ArcGISFormat>1.0</ArcGISFormat><SyncOnce>TRUE</SyncOnce><DataProperties><lineage><Process ToolSource="D:\ArcGIS Engine\Engine10.0\ArcToolbox\Toolboxes\Spatial Analyst Tools.tbx\ExtractByRectangle" Date="20180523" Time="150830">ExtractByRectangle C:\Users\dell\Desktop\森林模型集成\ASTGTM_N27E113O.img G:\YouXian\LinChangUTM2008.shp C:\Users\dell\Desktop\森林模型集成\dem.img INSIDE</Process></lineage></DataProperties></Esri></metadata>

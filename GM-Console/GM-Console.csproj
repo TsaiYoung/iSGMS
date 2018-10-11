@@ -1,0 +1,170 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{933885F5-8039-4443-B281-849534E8D5F1}</ProjectGuid>
+    <OutputType>Exe</OutputType>
+    <RootNamespace>GM_Console</RootNamespace>
+    <AssemblyName>GM-Console</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="gdalconst_csharp, Version=1.0.6595.32833, Culture=neutral, PublicKeyToken=db5a52b08dc5b321, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\Debug\gdalconst_csharp.dll</HintPath>
+    </Reference>
+    <Reference Include="gdal_csharp, Version=1.0.6595.32832, Culture=neutral, PublicKeyToken=db5a52b08dc5b321, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\Debug\gdal_csharp.dll</HintPath>
+    </Reference>
+    <Reference Include="ogr_csharp, Version=1.0.6595.32831, Culture=neutral, PublicKeyToken=db5a52b08dc5b321, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\Debug\ogr_csharp.dll</HintPath>
+    </Reference>
+    <Reference Include="osr_csharp, Version=1.0.6595.32830, Culture=neutral, PublicKeyToken=db5a52b08dc5b321, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\Debug\osr_csharp.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="DEMOperate.cs" />
+    <Compile Include="Forest.cs" />
+    <Compile Include="Management.cs" />
+    <Compile Include="modelLibrary\Biomassmodels\BiomassModel1.cs" />
+    <Compile Include="modelLibrary\Biomassmodels\BiomassModel2.cs" />
+    <Compile Include="modelLibrary\Biomassmodels\BiomassModel3.cs" />
+    <Compile Include="modelLibrary\Biomassmodels\BiomassModel4.cs" />
+    <Compile Include="modelLibrary\Biomassmodels\BiomassModel5.cs" />
+    <Compile Include="modelLibrary\Biomassmodels\BiomassModel6.cs" />
+    <Compile Include="modelLibrary\Biomassmodels\BiomassModel7.cs" />
+    <Compile Include="modelLibrary\Biomassmodels\IBiomass.cs" />
+    <Compile Include="modelLibrary\CHmodels\CHGrowthModel.cs" />
+    <Compile Include="modelLibrary\CWmodels\CWModel1.cs" />
+    <Compile Include="modelLibrary\CWmodels\CWModel10.cs" />
+    <Compile Include="modelLibrary\CWmodels\CWModel11.cs" />
+    <Compile Include="modelLibrary\CWmodels\CWModel12.cs" />
+    <Compile Include="modelLibrary\CWmodels\CWModel13.cs" />
+    <Compile Include="modelLibrary\CWmodels\CWModel14.cs" />
+    <Compile Include="modelLibrary\CWmodels\CWModel15.cs" />
+    <Compile Include="modelLibrary\CWmodels\CWModel16.cs" />
+    <Compile Include="modelLibrary\CWmodels\CWModel17.cs" />
+    <Compile Include="modelLibrary\CWmodels\CWModel18.cs" />
+    <Compile Include="modelLibrary\CWmodels\CWModel19.cs" />
+    <Compile Include="modelLibrary\CWmodels\CWModel2.cs" />
+    <Compile Include="modelLibrary\CWmodels\CWModel20.cs" />
+    <Compile Include="modelLibrary\CWmodels\CWModel21.cs" />
+    <Compile Include="modelLibrary\CWmodels\CWModel22.cs" />
+    <Compile Include="modelLibrary\CWmodels\CWModel23.cs" />
+    <Compile Include="modelLibrary\CWmodels\CWModel24.cs" />
+    <Compile Include="modelLibrary\CWmodels\CWModel25.cs" />
+    <Compile Include="modelLibrary\CWmodels\CWModel3.cs" />
+    <Compile Include="modelLibrary\CWmodels\CWModel4.cs" />
+    <Compile Include="modelLibrary\CWmodels\CWModel5.cs" />
+    <Compile Include="modelLibrary\CWmodels\CWModel6.cs" />
+    <Compile Include="modelLibrary\CWmodels\CWModel7.cs" />
+    <Compile Include="modelLibrary\CWmodels\CWModel8.cs" />
+    <Compile Include="modelLibrary\CWmodels\CWModel9.cs" />
+    <Compile Include="modelLibrary\CWmodels\ICWGrowth.cs" />
+    <Compile Include="modelLibrary\CWmodels\ICWGrowth2.cs" />
+    <Compile Include="modelLibrary\DBHmodels\DBHGrowthModelSet.cs" />
+    <Compile Include="modelLibrary\Heightmodels\HeightModel1.cs" />
+    <Compile Include="modelLibrary\Heightmodels\HeightModel11.cs" />
+    <Compile Include="modelLibrary\Heightmodels\HeightModel12.cs" />
+    <Compile Include="modelLibrary\Heightmodels\HeightModel13.cs" />
+    <Compile Include="modelLibrary\Heightmodels\HeightModel16.cs" />
+    <Compile Include="modelLibrary\Heightmodels\HeightModel17.cs" />
+    <Compile Include="modelLibrary\Heightmodels\HeightModel18.cs" />
+    <Compile Include="modelLibrary\Heightmodels\HeightModel19.cs" />
+    <Compile Include="modelLibrary\Heightmodels\HeightModel20.cs" />
+    <Compile Include="modelLibrary\Heightmodels\HeightModel21.cs" />
+    <Compile Include="modelLibrary\Heightmodels\HeightModel22.cs" />
+    <Compile Include="modelLibrary\Heightmodels\HeightModel23.cs" />
+    <Compile Include="modelLibrary\Heightmodels\HeightModel24.cs" />
+    <Compile Include="modelLibrary\Heightmodels\HeightModel27.cs" />
+    <Compile Include="modelLibrary\Heightmodels\HeightModel28.cs" />
+    <Compile Include="modelLibrary\Heightmodels\HeightModel29.cs" />
+    <Compile Include="modelLibrary\Heightmodels\HeightModel3.cs" />
+    <Compile Include="modelLibrary\Heightmodels\HeightModel30.cs" />
+    <Compile Include="modelLibrary\Heightmodels\HeightModel33.cs" />
+    <Compile Include="modelLibrary\Heightmodels\HeightModel34.cs" />
+    <Compile Include="modelLibrary\Heightmodels\HeightModel35.cs" />
+    <Compile Include="modelLibrary\Heightmodels\HeightModel36.cs" />
+    <Compile Include="modelLibrary\Heightmodels\HeightModel37.cs" />
+    <Compile Include="modelLibrary\Heightmodels\HeightModel38.cs" />
+    <Compile Include="modelLibrary\Heightmodels\HeightModel39.cs" />
+    <Compile Include="modelLibrary\Heightmodels\HeightModel4.cs" />
+    <Compile Include="modelLibrary\Heightmodels\HeightModel5.cs" />
+    <Compile Include="modelLibrary\Heightmodels\HeightModel6.cs" />
+    <Compile Include="modelLibrary\Heightmodels\HeightModel7.cs" />
+    <Compile Include="modelLibrary\Heightmodels\HeightModel8.cs" />
+    <Compile Include="modelLibrary\Heightmodels\HeightModel9.cs" />
+    <Compile Include="modelLibrary\Heightmodels\IHeightGrowth.cs" />
+    <Compile Include="modelLibrary\Heightmodels\IHeightGrowth2.cs" />
+    <Compile Include="modelLibrary\Heightmodels\IHeightGrowthfromAge.cs" />
+    <Compile Include="modelLibrary\Heightmodels\IHeightGrowthfromAge2.cs" />
+    <Compile Include="modelLibrary\Mortalitymodels\IMortalityModels.cs" />
+    <Compile Include="modelLibrary\Mortalitymodels\IMortalityModels1.cs" />
+    <Compile Include="modelLibrary\Mortalitymodels\IMortalityModels2.cs" />
+    <Compile Include="modelLibrary\Mortalitymodels\MortalityModel10.cs" />
+    <Compile Include="modelLibrary\Mortalitymodels\MortalityModels1.cs" />
+    <Compile Include="modelLibrary\Mortalitymodels\MortalityModels2.cs" />
+    <Compile Include="modelLibrary\Mortalitymodels\MortalityModels3.cs" />
+    <Compile Include="modelLibrary\Mortalitymodels\MortalityModels4.cs" />
+    <Compile Include="modelLibrary\Mortalitymodels\MortalityModels5.cs" />
+    <Compile Include="modelLibrary\Mortalitymodels\MortalityModels6.cs" />
+    <Compile Include="modelLibrary\Mortalitymodels\MortalityModels7.cs" />
+    <Compile Include="modelLibrary\Mortalitymodels\MortalityModels8.cs" />
+    <Compile Include="modelLibrary\Mortalitymodels\MortalityModels9.cs" />
+    <Compile Include="modelLibrary\UBHmodels\IUBHmodel1.cs" />
+    <Compile Include="modelLibrary\UBHmodels\IUBHModel2.cs" />
+    <Compile Include="modelLibrary\UBHmodels\IUBHModels.cs" />
+    <Compile Include="modelLibrary\UBHmodels\IUBHModels3.cs" />
+    <Compile Include="modelLibrary\UBHmodels\UBHGrowthModel1.cs" />
+    <Compile Include="modelLibrary\UBHmodels\UBHGrowthModel10.cs" />
+    <Compile Include="modelLibrary\UBHmodels\UBHGrowthModel11.cs" />
+    <Compile Include="modelLibrary\UBHmodels\UBHGrowthModel2.cs" />
+    <Compile Include="modelLibrary\UBHmodels\UBHGrowthModel3.cs" />
+    <Compile Include="modelLibrary\UBHmodels\UBHGrowthModel4.cs" />
+    <Compile Include="modelLibrary\UBHmodels\UBHGrowthModel5.cs" />
+    <Compile Include="modelLibrary\UBHmodels\UBHGrowthModel6.cs" />
+    <Compile Include="modelLibrary\UBHmodels\UBHGrowthModel7.cs" />
+    <Compile Include="modelLibrary\UBHmodels\UBHGrowthModel8.cs" />
+    <Compile Include="modelLibrary\UBHmodels\UBHGrowthModel9.cs" />
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="ShpOperate.cs" />
+    <Compile Include="SpatialUnit.cs" />
+    <Compile Include="Tree.cs" />
+  </ItemGroup>
+  <ItemGroup />
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
